@@ -14,6 +14,7 @@ const Blogs = dynamic(() => import('./components/Blogs'));
 const GetInTouch = dynamic(() => import('./components/GetInTouch'));
 const Footer = dynamic(() => import('./components/Footer'));
 const Switcher = dynamic(() => import('./components/Switcher'));
+const PriceCalculatorSection = dynamic(() => import('./components/PriceCalculatorSection'));
 
 export default function Index(){
     useEffect(() => {
@@ -27,6 +28,7 @@ export default function Index(){
             <Navbar/>
             <HeroOne/>
             <AboutUs/>
+            <PriceCalculatorSection/>
             <Services/>
             <CTABanner/>
             <Experience/>
@@ -35,7 +37,7 @@ export default function Index(){
             <Blogs/>
             <GetInTouch/>
             <Footer/>
-            <Switcher/>
+            {/* <Switcher/> */}
         </>
     )
 }

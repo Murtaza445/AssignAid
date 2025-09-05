@@ -1,87 +1,89 @@
 import * as Icon from 'react-feather';
+
 export const expertiseData = [
     {
-        title:'Developing',
-        Icon: Icon.Monitor
+        title:'Business & Management',
+        Icon: Icon.Briefcase
     },
     {
-        title:'Mac OS',
-        Icon: Icon.StopCircle
+        title:'Computer Science',
+        Icon: Icon.Code
     },
     {
-        title:'Cinema',
-        Icon: Icon.Video
+        title:'Engineering',
+        Icon: Icon.Cpu
     },
     {
-        title:'Coffee',
-        Icon: Icon.Coffee
+        title:'Law & Legal Studies',
+        Icon: Icon.BookOpen
     },
     {
-        title:'Music',
-        Icon: Icon.Music
-    },
-    {
-        title:'Games',
-        Icon: Icon.Watch
-    },
-    {
-        title:'Designing',
-        Icon: Icon.Box
-    },
-    {
-        title:'Sports',
-        Icon: Icon.Target
-    },
-    {
-        title:'Painting',
-        Icon: Icon.PenTool
-    },
-    {
-        title:'Reading',
+        title:'Literature & History',
         Icon: Icon.Book
     },
     {
-        title:'Android',
-        Icon: Icon.Smartphone
+        title:'Psychology',
+        Icon: Icon.User
     },
     {
-        title:'Other Activity',
+        title:'Mathematics & Statistics',
+        Icon: Icon.BarChart2
+    },
+    {
+        title:'Economics & Finance',
+        Icon: Icon.DollarSign
+    },
+    {
+        title:'Nursing & Medicine',
         Icon: Icon.Activity
     },
+    {
+        title:'Education',
+        Icon: Icon.Edit3
+    },
+    {
+        title:'Marketing',
+        Icon: Icon.Target
+    },
+    {
+        title:'Other Subjects',
+        Icon: Icon.MoreHorizontal
+    },
 ]
+
 export const servicesData = [
     {
-        title:'UX / UI Design',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Airplay
+        title:'Essay Writing',
+        desc:'Structured, well-researched, and original essays for any subject.',
+        Icon: Icon.Edit3
     },
     {
-        title:'Ios App Designer',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Aperture
+        title:'Dissertation Assistance',
+        desc:'From proposals to full dissertations, we guide you step by step.',
+        Icon: Icon.BookOpen
     },
     {
-        title:'Photography',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Camera
+        title:'Thesis Support',
+        desc:'Expertly written and formatted theses to meet academic standards.',
+        Icon: Icon.FileText
     },
     {
-        title:'Graphic Designer',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Compass
+        title:'Proofreading & Editing',
+        desc:'Polished, error-free work with improved clarity and flow.',
+        Icon: Icon.CheckCircle
     },
     {
-        title:'Web Security',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Settings
+        title:'Presentations & Posters',
+        desc:'Professionally designed academic visuals that impress.',
+        Icon: Icon.Monitor
     },
     {
-        title:'Web Security',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
-        Icon: Icon.Watch
+        title:'Assignments & Reports',
+        desc:'Comprehensive and customized academic assignments tailored to your needs.',
+        Icon: Icon.Layers
     },
-
 ]
+
 export const project = [
    {
     image: '/images/works/1.jpg',

@@ -17,24 +17,23 @@ export default function AboutUs(){
                             <Image src="/images/ab2.jpg"  alt="" height={0} width={0} sizes="100vw" style={{height:"auto", width:"100%"}}  className="rounded-full shadow-md shadow-gray-200 dark:shadow-gray-800"/>
 
                             <div className="absolute lg:bottom-20 md:bottom-10 bottom-6 ltr:lg:-right-16 rtl:lg:-left-16 ltr:md:-right-8 rtl:md:-left-8 ltr:right-0 rtl:left-0 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-                                <h6 className="font-semibold">Web Desinger</h6>
+                                <h6 className="font-semibold">Expert Writers</h6>
                                 <span className="text-2xl font-medium text-amber-500 mb-0"><span className="counter-value font-bold" data-target="7"><CountUp
                                             start={7}
                                             className="counter-value"
                                             end={180}
                                             duration={2.75} /></span>+</span>
-                                <span className="text-sm text-slate-400">Years <br/> Experience</span>
+                                <span className="text-sm text-slate-400">Assignments <br/> Delivered</span>
                             </div>
                         </div>
                     </div>
 
                     <div className="lg:col-span-7">
                         <div className="lg:ms-5">
-                            <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">I am a Passionate Web Designer</h3>
+                            <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Our Mission, Your Success</h3>
 
-                            <p className="text-slate-400 max-w-xl text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using Content here, content here, making it look like readable English.</p>
-                            <p className="text-slate-400 max-w-xl text-[15px] mt-6">I am a professional web designer. My motive is to build a best web design with my all years of experience.</p>
-                        
+                            <p className="text-slate-400 max-w-xl text-[15px]"> At AssignAid, we believe that academic success should be stress-free. Our mission is to support students by providing clear, reliable, and high-quality academic writing services. Whether it&apos;s an essay, dissertation, thesis, or presentation, we deliver tailored solutions that help you achieve your academic goals.</p>
+                            <p className="text-slate-400 max-w-xl text-[15px] mt-6">With a team of experienced writers, editors, and subject experts, We ensure every project is well-researched, professionally written, and formatted to perfection. From proofreading to full-scale dissertation assistance, we are here to make your academic journey simpler, smoother, and more successful.</p>
                             <div className="mt-6">
                                 <Link href="#project" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md me-2 mt-2">See Work</Link>
                             </div>
@@ -45,9 +44,9 @@ export default function AboutUs(){
 
             <div className="container md:mt-24 mt-16">
                 <div className="grid grid-cols-1 pb-8 text-center">
-                    <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Hobbies & Expertise</h3>
+                    <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Subjects We Cover</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto text-[15px]">From business reports to biology lab work, our expert writers specialize across disciplines to support every academic need.</p>
                 </div>
 
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">

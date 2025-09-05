@@ -13,17 +13,18 @@ export default function HeroOne(){
             <div className="container">
                 <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                     <div>
-                        <h4 className="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal mb-4">Hey! I am <br/>
+                        <h4 className="font-bold text-amber-500 lg:text-[50px] text-3xl lg:leading-normal leading-normal mb-0">AssignAid<br/> </h4>
+                        <h4 className="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal mb-4">Your Academic Partner <br/>
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
-                                'Dennis Scott',
+                                'Essay Writing',
                                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                'Website Designer',
+                                'Dissertation Help',
                                 1000,
-                                'Web Developer',
+                                'Thesis Assistance',
                                 1000,
-                                'UI/UX Designer',
+                                'Presentation Support',
                                 1000
                             ]}
                             wrapper="span"
@@ -31,12 +32,12 @@ export default function HeroOne(){
                             className="typewrite text-amber-500"
                             repeat={Infinity}
                         />
-                        <span className="typewrite text-amber-500" data-period="2000" data-type='[ "Dennis Scott", "Website Designer", "Web Developer", "UI/UX Designer" ]'> <span className="wrap"></span> </span></h4>
-                        <p className="text-slate-400 max-w-xl">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                        <span className="typewrite text-amber-500" data-period="2000" data-type='[ "Essay Writing", "Dissertation Help", "Thesis Assistance", "Presentation Support" ]'> <span className="wrap"></span> </span></h4>
+                        <p className="text-slate-400 max-w-xl"> From essays to dissertations, thesis to presentations – we simplify academic writing so you can focus on learning. Professional, reliable, and tailored solutions for every student.</p>
                     
                         <div className="mt-6">
-                            <Link href="" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Hire Me</Link>
-                            <Link href="" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Download CV</Link>
+                            <Link href="" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Get Help Now</Link>
+                            <Link href="" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Request a Free Quote</Link>
                         </div>
                     </div>
 
@@ -49,11 +50,11 @@ export default function HeroOne(){
                                             className="counter-value"
                                             end={180}
                                             duration={2.75} /></span>+</span>
-                            <h6 className="text-sm text-slate-400 mt-1">Project Completed</h6>
+                            <h6 className="text-sm text-slate-400 mt-1">Assignments Delivered</h6>
                         </div>
 
                         <div className="absolute lg:top-80 md:top-56 top-48 ltr:md:-right-0 ltr:right-2 rtl:md:-left-0 rtl:left-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-                            <h6 className="font-semibold">Web Designer</h6>
+                            <h6 className="font-semibold">Expert Writers</h6>
                             <h6 className="text-sm text-slate-400 mt-1">7+ Years Experience</h6>
                         </div>
                     </div>
