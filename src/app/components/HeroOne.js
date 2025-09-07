@@ -9,7 +9,7 @@ export default function HeroOne(){
     const [currentImage, setCurrentImage] = useState("/images/hero/Hero1.png");
 
     useEffect(() => {
-        const images = ["/images/hero/hero1.png", "/images/hero/Hero2.png"];
+        const images = ["/images/hero/Hero1.png", "/images/hero/Hero2.png"];
         let index = 0;
 
         const interval = setInterval(() => {
