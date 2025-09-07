@@ -1,11 +1,25 @@
 'use client'
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { TypeAnimation } from 'react-type-animation';
 import CountUp from 'react-countup';
 import Image from "next/image";
 
 export default function HeroOne(){
+    const [currentImage, setCurrentImage] = useState("/images/hero/hero1.png");
+
+    useEffect(() => {
+        const images = ["/images/hero/hero1.png", "/images/hero/hero2.png"];
+        let index = 0;
+
+        const interval = setInterval(() => {
+            index = (index + 1) % images.length;
+            setCurrentImage(images[index]);
+        }, 3000); // change every 3 seconds
+
+        return () => clearInterval(interval); // cleanup on unmount
+    }, []);
+
     return(
         <>
            <section className="relative pt-28 personal-wrapper overflow-hidden bg-amber-500/5" id="home">
@@ -36,13 +50,13 @@ export default function HeroOne(){
                         <p className="text-slate-400 max-w-xl"> From essays to dissertations, thesis to presentations – we simplify academic writing so you can focus on learning. Professional, reliable, and tailored solutions for every student.</p>
                     
                         <div className="mt-6">
-                            <Link href="" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Get Help Now</Link>
-                            <Link href="" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Request a Free Quote</Link>
+                            <Link href="#contact" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Get Help Now</Link>
+                            <Link href="#calculator" className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1">Request a Free Quote</Link>
                         </div>
                     </div>
 
                     <div className="relative">
-                        <Image height={0} width={0} sizes="100vw" style={{height:"auto", width:"100%"}}  src="/images/hero/2.png" alt=""/>
+                        <Image height={0} width={0} sizes="100vw" style={{height:"auto", width:"100%"}}  src={currentImage} alt=""/>
 
                         <div className="absolute lg:bottom-20 md:bottom-10 bottom-2 ltr:md:-left-5 ltr:left-2 rtl:md:-right-5 rtl:right-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
                             <span className="text-3xl font-medium mb-0"><span className="counter-value font-bold" data-target="125"> <CountUp

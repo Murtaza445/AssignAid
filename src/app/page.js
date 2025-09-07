@@ -10,10 +10,8 @@ const CTABanner = dynamic(() => import('./components/CTABanner'));
 const Experience = dynamic(() => import('./components/Experience'));
 const Projects = dynamic(() => import('./components/Projects'));
 const Clients = dynamic(() => import('./components/Clients'));
-const Blogs = dynamic(() => import('./components/Blogs'));
 const GetInTouch = dynamic(() => import('./components/GetInTouch'));
 const Footer = dynamic(() => import('./components/Footer'));
-const Switcher = dynamic(() => import('./components/Switcher'));
 const PriceCalculatorSection = dynamic(() => import('./components/PriceCalculatorSection'));
 
 export default function Index(){
@@ -34,10 +32,9 @@ export default function Index(){
             <Experience/>
             <Projects/>
             <Clients/>
-            <Blogs/>
+            {/* <Blogs/> */}
             <GetInTouch/>
             <Footer/>
-            {/* <Switcher/> */}
         </>
     )
 }

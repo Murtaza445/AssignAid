@@ -9,8 +9,8 @@ const poppins = Poppins({
  })
 
 export const metadata = {
-  title: 'Dennis - Next Js Personal Portfolio Template',
-  description: 'Dennis - Next Js Personal Portfolio Template',
+  title: 'AssignAid - Assignment Help Service',
+  description: 'Professional Assignment Help Service for Students | Expert Writers, 24/7 Support, Affordable Prices',
 }
 
 export default function RootLayout({ children }) {
