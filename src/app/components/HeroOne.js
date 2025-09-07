@@ -6,10 +6,10 @@ import CountUp from 'react-countup';
 import Image from "next/image";
 
 export default function HeroOne(){
-    const [currentImage, setCurrentImage] = useState("/images/hero/hero1.png");
+    const [currentImage, setCurrentImage] = useState("/images/hero/Hero1.png");
 
     useEffect(() => {
-        const images = ["/images/hero/hero1.png", "/images/hero/hero2.png"];
+        const images = ["/images/hero/hero1.png", "/images/hero/Hero2.png"];
         let index = 0;
 
         const interval = setInterval(() => {

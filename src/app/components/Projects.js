@@ -103,7 +103,7 @@ export default function Projects(){
 
                         {/* 5 */}
                         <div className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800">
-                            <Image height={0} width={0} sizes="100vw" style={{height:"auto", width:"100%"}} src="/images/works/Presentation.png" alt="Presentations & Posters"/>
+                            <Image height={0} width={0} sizes="100vw" style={{height:"auto", width:"100%"}} src="/images/works/presentation.png" alt="Presentations & Posters"/>
                             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
                             <div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
                                 <h5 className="text-white font-semibold">Presentations & Posters</h5>
