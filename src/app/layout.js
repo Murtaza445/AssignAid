@@ -124,7 +124,7 @@ export default function RootLayout({ children }) {
                 "borderRadius": "8",
                 "autoShow": false,
                 "btnColor": "#16BE45",
-                "phoneNumber": "+1 (281) 303-9588‬",
+                "phoneNumber": "+1 (281) 303-9588",
                 "trackClick": true
               }
             };
