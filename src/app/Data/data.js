@@ -146,34 +146,35 @@ export const blogData = [
 ]
 export const review = [
     {
-        name:'Thomas Israel',
-        designation:'Manager',
-        image:'/images/client/01.jpg',
-        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
+        name: 'Sophia Williams',
+        designation: 'Graduate Student, USA',
+        image: '/images/client/girl2.jpg',
+        desc: "AssignAid provided exceptional support on my dissertation. The writers were professional, met deadlines, and delivered work that exceeded my expectations."
     },
     {
-        name:'Thomas Israel',
-        designation:'Manager',
-        image:'/images/client/01.jpg',
-        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
+        name: 'James Carter',
+        designation: 'MBA Candidate, USA',
+        image: '/images/client/boy1.jpg',
+        desc: "The team really understood my requirements and helped me present a polished research paper. Their attention to detail and originality was impressive."
     },
     {
-        name:'Thomas Israel',
-        designation:'Manager',
-        image:'/images/client/01.jpg',
-        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
+        name: 'Emily Johnson',
+        designation: 'PhD Researcher, Canada',
+        image: '/images/client/girl3.jpg',
+        desc: "AssignAid has been my go-to service for academic writing. Their subject matter expertise and commitment to quality make them stand out."
     },
     {
-        name:'Thomas Israel',
-        designation:'Manager',
-        image:'/images/client/01.jpg',
-        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
+        name: 'Daniel Martinez',
+        designation: 'Undergraduate Student, USA',
+        image: '/images/client/boy2.jpg',
+        desc: "I was struggling with multiple essays, but AssignAid delivered perfectly written papers on time. It really helped me manage my workload effectively."
     },
     {
-        name:'Thomas Israel',
-        designation:'Manager',
-        image:'/images/client/01.jpg',
-        desc:"Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development."
+        name: 'Olivia Brown',
+        designation: 'Masters Student, USA',
+        image: '/images/client/girl1.jpg',
+        desc: "The best part about AssignAid is their consistency. Every project I’ve ordered was plagiarism-free, well-researched, and formatted exactly as required."
     },
-]
+];
+
 

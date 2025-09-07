@@ -365,7 +365,7 @@ export default function PriceCalculatorSection() {
                 }
                 
                 .main-title {
-                    font-size: 32px;
+                    font-size: 24px;
                     line-height: 1.2;
                     font-weight: 600;
                     color: #1e293b;
@@ -373,7 +373,7 @@ export default function PriceCalculatorSection() {
                 }
                 
                 .subtitle {
-                    font-size: 16px;
+                    font-size: 15px;
                     color: #94a3b8;
                     max-width: 600px;
                     margin: 0 auto;
@@ -755,7 +755,7 @@ export default function PriceCalculatorSection() {
                     }
                     
                     .main-title {
-                        font-size: 24px;
+                        font-size: 20px;
                     }
                     
                     .grid-container {

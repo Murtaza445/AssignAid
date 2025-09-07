@@ -40,9 +40,9 @@ export default function Clients(){
         <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800" id="testi">
             <div className="container">
                 <div className="grid grid-cols-1 pb-8 text-center">
-                    <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Clients Review</h3>
+                    <h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">Students Review</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Hear directly from students who turned academic challenges into achievements with our expert guidance.</p>
                 </div>
                 <div className="grid relative grid-cols-1 mt-8">
                     <div className="tiny-three-item">

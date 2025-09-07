@@ -30,16 +30,6 @@ export default function Switcher() {
                     document.documentElement.className = 'dark'
                 }
                 break;
-            case 'layout':
-                if (event.target?.innerText === "LTR") {
-                    document.documentElement.dir = "ltr"
-                }
-                else {
-                    document.documentElement.dir = "rtl"
-                }
-                break;
-            default:
-                break;
         }
     }
     return (
@@ -53,13 +43,6 @@ export default function Switcher() {
                         <span className="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
                     </label>
                 </span>
-            </div>
-
-            <div className="fixed top-[40%] -right-3 z-50">
-                <Link href="#" id="switchRtl" className="cursor-pointer">
-                    <span className="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-semibold rtl:block ltr:hidden" onClick={(event) => changeMode('layout', event)}>LTR</span>
-                    <span className="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-semibold ltr:block rtl:hidden" onClick={(event) => changeMode('layout', event)}>RTL</span>
-                </Link>
             </div>
 
             <Link  href="#" onClick={scrollToTop}
