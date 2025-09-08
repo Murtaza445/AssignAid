@@ -116,7 +116,7 @@ export default function RootLayout({ children }) {
                 "brandName": "AssignAid",
                 "brandSubTitle": "Replies within 1 day",
                 "headerTextColor": "#fff",
-                "brandImg": "https://assign-aid.vercel.app/images/favicon.ico",
+                "brandImg": "/images/logolelo.png",
                 "welcomeText": "Welcome to AssignAid!! \\nHow can we Help you?",
                 "messageText": "Hello, I have a question about your services.",
                 "backgroundColor": "#f59e0b",
