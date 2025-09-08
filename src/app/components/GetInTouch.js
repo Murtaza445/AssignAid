@@ -176,7 +176,7 @@ export default function GetInTouch(){
 
                             <div className="flex-1 ms-6">
                                 <h5 className="text-[17px] dark:text-white mb-2 font-medium">Location</h5>
-                                <p className="text-slate-400 text-[15px] mb-2">C/54 Northwest Freeway, Suite 558, Houston, USA 485</p>
+                                <p className="text-slate-400 text-[15px] mb-2">3418 Aztec Wood DrHouston, TX 77084</p>
                             </div>
                         </div>
                     </div>
